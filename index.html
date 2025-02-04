@@ -5,36 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katherine Zúniga - Ciencia de Datos</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            width: 1484px;
+            height: 396px;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2.5rem;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .proyecto {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+        .proyecto img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .proyecto h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        .proyecto p {
+            color: #666;
+            font-size: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="Banner Data Scientist blog.jpg" alt="Banner" width="1484" height="396">
+        <img src="ruta_a_tu_imagen_de_banner.jpg" alt="Banner">
         <h1>Katherine Zúniga</h1>
     </header>
-
-    <div class="content">
-        <h2>Proyectos</h2>
-        <div class="projects">
-            <div class="project-card">
-                <img src="churn.jpg" alt="Proyecto 1">
-                <h3>Interconnect churn</h3>
-                <p>Predicción de cancelación de clientes para operador de telecomunicaciones.</p>
-            </div>
-            <div class="project-card">
-                <img src="mobile plan.jpg" alt="Proyecto 2">
-                <h3>Recommendation Mobile Plans</h3>
-                <p>Recomendación de planes móviles a partir de datos de clientes.</p>
-            </div>
-            <div class="project-card">
-                <img src="cost construction.jpg" alt="Proyecto 3">
-                <h3>Cost overrun prediction</h3>
-                <p>Predicción de sobrecostos en proyectos de construcción.</p>
-            </div>
+    <section>
+        <div class="proyecto">
+            <a href="link_a_tu_proyecto1.html">
+                <img src="foto_proyecto1.jpg" alt="Proyecto 1">
+            </a>
+            <h3>Interconnect churn</h3>
+            <p>Predicción de cancelación de clientes para operador de telecomunicaciones.</p>
         </div>
-    </div>
-
+        <div class="proyecto">
+            <a href="link_a_tu_proyecto2.html">
+                <img src="foto_proyecto2.jpg" alt="Proyecto 2">
+            </a>
+            <h3>Recommendation Mobile Plans</h3>
+            <p>Recomendación de planes móviles a partir de datos de clientes.</p>
+        </div>
+        <div class="proyecto">
+            <a href="link_a_tu_proyecto3.html">
+                <img src="foto_proyecto3.jpg" alt="Proyecto 3">
+            </a>
+            <h3>Cost overrun prediction</h3>
+            <p>Predicción de sobrecostos en proyectos de construcción.</p>
+        </div>
+    </section>
     <footer>
-        <p>© 2025 Katherine Zuñiga. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Katherine Zúniga. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
